@@ -39,12 +39,13 @@ function NavBar() {
                         </a>
                     </li>
                     <li>
-                        <a
+                        <Link
+                            to="/register"
                             href="#"
                             className="hidden sm:inline-block text-[#FFEDD8] uppercase text-normal md:text-md font-semibold hover:bg-[#EABE6C] bg-[#891652] px-4 py-1  rounded-full"
                         >
                             Sign up
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <a
@@ -90,12 +91,13 @@ function NavBar() {
                         </a>
                     </li>
                     <li>
-                        <a
+                        <Link
+                            to="/register"
                             href="#"
-                            className="sm:hidden md:inline-block text-[#FFEDD8] uppercase text-normal md:text-lg font-semibold hover:bg-[#EABE6C] bg-[#891652] px-4 py-1  rounded-full"
+                            className="hidden sm:inline-block text-[#FFEDD8] uppercase text-normal md:text-md font-semibold hover:bg-[#EABE6C] bg-[#891652] px-4 py-1  rounded-full"
                         >
                             Sign up
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <a

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
     return (
         <footer className="bg-white shadow ">
@@ -5,11 +7,20 @@ function Footer() {
                 <div className="flex flex-col items-center">
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 ">
                         <li>
+                            <Link
+                                to="/"
+                                href="#"
+                                className="hover:underline me-4 md:me-6"
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li>
                             <a
                                 href="#"
                                 className="hover:underline me-4 md:me-6"
                             >
-                                About
+                                Contacts
                             </a>
                         </li>
                         <li>
@@ -17,29 +28,16 @@ function Footer() {
                                 href="#"
                                 className="hover:underline me-4 md:me-6"
                             >
-                                Privacy Policy
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                className="hover:underline me-4 md:me-6"
-                            >
-                                Licensing
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="hover:underline">
-                                Contact
+                                Hiring
                             </a>
                         </li>
                     </ul>
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
                 <span className="block text-sm text-gray-500 sm:text-center ">
-                    © 2023{" "}
+                    © 2024{" "}
                     <a href="https://flowbite.com/" className="hover:underline">
-                        Flowbite™
+                        Pagadian Careers
                     </a>
                     . All Rights Reserved.
                 </span>
