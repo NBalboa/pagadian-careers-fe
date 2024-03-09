@@ -48,12 +48,12 @@ function NavBar() {
                         </Link>
                     </li>
                     <li>
-                        <a
-                            href="#"
+                        <Link
+                            to="/login"
                             className="hidden sm:inline-block text-[#FFEDD8] uppercase text-normal md:text-md font-semibold hover:bg-[#EABE6C] bg-[#891652] px-4 py-1  rounded-full"
                         >
                             Sign In
-                        </a>
+                        </Link>
                     </li>
                     <div>
                         <button
@@ -100,12 +100,12 @@ function NavBar() {
                         </Link>
                     </li>
                     <li>
-                        <a
-                            href="#"
-                            className="sm:hidden md:inline-block text-[#FFEDD8] uppercase text-normal md:text-lg font-semibold hover:bg-[#EABE6C] bg-[#891652] px-4 py-1  rounded-full"
+                        <Link
+                            to="/login"
+                            className="hidden sm:inline-block text-[#FFEDD8] uppercase text-normal md:text-md font-semibold hover:bg-[#EABE6C] bg-[#891652] px-4 py-1  rounded-full"
                         >
                             Sign In
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             ) : (
